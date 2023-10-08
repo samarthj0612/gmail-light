@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+#sj-main {
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+#left {
+  height: 100%;
+  width: 30%;
+  background-color: #444;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
+  color: white;
+}
+#left a {
+  text-decoration: none;
+}
+#profilepic {
+  height: 200px;
+  width: 200px;
+  background-color: white;
+  border-radius: 50%;
+  margin: 0 auto;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+}
+#profilepic img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+#right {
+  height: 100%;
+  width: 70%;
+  background-color: rgba(0, 0, 0, 0.183);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+#right table {
+  height: 50%;
+  font-size: 20px;
+}
+#right table th,
+#right table td {
+  padding: 5px 60px;
+}
+#right #controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 50px;
+}

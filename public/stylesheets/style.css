@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "gilroy";
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+#sj-main {
+  height: 100%;
+  width: 100%;
+  background-color: #666;
+  display: flex;
+}
+h1 {
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  font-size: 11vw;
+  font-family: "roxie rossa";
+  color: white;
+  text-shadow: 0px 0px 10px black;
+}
+form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(0%, -50%);
+  padding: 50px;
+  box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.651);
+  background-color: white;
+  border-radius: 5px;
+}
+form input {
+  padding: 3px 5px;
+}
+form table {
+  border: none;
+}
+form table th,
+td {
+  text-align: start;
+  padding: 10px 50px;
+  border-color: transparent;
+}
